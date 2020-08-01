@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EFBCC6"
+            >
+            <TextView
+                android:id="@+id/txt_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Name"
+                android:textSize="17sp"
+                android:textColor="#000"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:id="@+id/txt_investment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Loan Interest : "
+                android:textSize="17sp"
+                android:textColor="#000"
+                android:layout_marginLeft="10sp"
+                android:layout_below="@+id/txt_Name"
+                />
+            <EditText
+                android:id="@+id/Edt_txt_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="#000"
+                android:layout_marginLeft="10sp"
+                android:layout_toRightOf="@id/txt_loan_repay"
+                android:hint="Amount"
+                android:maxLength="7"
+                android:layout_alignBaseline="@+id/txt_investment"
+                android:inputType="number"/>
+            <TextView
+                android:id="@+id/txt_loan_repay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Loan Repayment : "
+                android:textSize="17sp"
+                android:textColor="#000"
+                android:layout_marginLeft="10sp"
+                android:layout_below="@+id/txt_investment"
+                />
+
+            <EditText
+                android:id="@+id/Edt_txt_amount2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txt_loan_repay"
+                android:layout_marginLeft="10sp"
+                android:layout_toRightOf="@id/txt_loan_repay"
+                android:hint="Amount"
+                android:inputType="number"
+                android:maxLength="7"
+                android:textColor="#000"
+                android:textSize="17sp" />
+            <TextView
+                android:id="@+id/txt_monthly_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Monthly Pay : "
+                android:textSize="17sp"
+                android:textColor="#000"
+                android:layout_marginLeft="10sp"
+                android:layout_below="@+id/txt_loan_repay"
+                />
+            <EditText
+                android:id="@+id/Edt_txt_amount3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="#000"
+                android:layout_marginLeft="10sp"
+                android:layout_toRightOf="@id/txt_loan_repay"
+                android:hint="Amount"
+                android:maxLength="7"
+                android:layout_alignBaseline="@+id/txt_monthly_pay"
+                android:inputType="number"/>
+
+            <TextView
+                android:id="@+id/txt_others"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Others : "
+                android:textSize="17sp"
+                android:textColor="#000"
+                android:layout_marginLeft="10sp"
+                android:layout_below="@+id/txt_monthly_pay"
+                />
+            <EditText
+                android:id="@+id/Edt_txt_amount5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textColor="#000"
+                android:layout_marginLeft="10sp"
+                android:layout_toRightOf="@id/txt_loan_repay"
+                android:hint="Amount"
+                android:maxLength="7"
+                android:layout_alignBaseline="@+id/txt_others"
+                android:inputType="number"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:background="#FA6638"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/txt_others"
+                android:text="Add"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
+</resources>
+

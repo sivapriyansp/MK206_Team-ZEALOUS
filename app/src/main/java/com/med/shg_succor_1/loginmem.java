@@ -25,7 +25,7 @@ public class loginmem extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent int1 = new Intent(loginmem.this,Dashboard.class);
+                Intent int1 = new Intent(loginmem.this,Dashboardmem.class);
                 startActivity(int1); }
         });
 

@@ -24,20 +24,19 @@ public class Signupmem extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1 = new Intent(Signupmem.this,Dashboard.class);
+                Intent intent1 = new Intent(Signupmem.this,Dashboardmem.class);
                 startActivity(intent1);
             }
         });
 
         textView = findViewById(R.id.logincondition);
         textView.setOnClickListener(new View.OnClickListener() {
-            private Object Loginmem;
+            private Object loginmem;
 
             @Override
             public void onClick(View v) {
                 Intent intent2 =new Intent(Signupmem.this, loginmem.class);
                 startActivity(intent2);
-
             }
         });
 

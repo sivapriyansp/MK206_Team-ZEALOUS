@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#A0E4EC"
+
+    android:orientation="vertical"
+    android:padding="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Do you want to Logout?"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        android:weightSum="{4:1092616192}">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="{4:1084227584}">
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:background="#C8D0FD"
+                android:text="Logout"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:layout_marginRight="100dp"
+                android:textSize="15sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="{4:1084227584}">
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginRight="100dp"
+                android:layout_centerInParent="true"
+                android:background="#C8D0FD"
+                android:text="Cancel"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
+
+</resources>

@@ -70,7 +70,7 @@
                                 <ImageView
                                     android:layout_width="50dp"
                                     android:layout_height="50dp"
-                                    android:src="@drawable/logo"
+
                                     android:layout_centerInParent="true"
                                     android:id="@+id/img_view1"/>
                                 <TextView
@@ -88,15 +88,15 @@
                                     android:background="@null"
                                     android:id="@+id/btn1"
                                     />
+                            android:layout_width="0dp"
                             </RelativeLayout>
                         </androidx.cardview.widget.CardView>
                         <androidx.cardview.widget.CardView
-                            android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:layout_margin="5dp"
                             android:layout_gravity="center"
-                            >
+                            android:layout_width="0sp">
                             <RelativeLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent">
